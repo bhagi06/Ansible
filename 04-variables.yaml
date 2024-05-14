@@ -1,9 +1,9 @@
 - name: variables
   hosts: localhost
   vars: #variable decalartion
-   Course:"Ansible"
-   Trainer:"Shiva"
-   Duration:"120hrs"
+   Course: "Ansible"
+   Trainer: "Shiva"
+   Duration: "120hrs"
   tasks:
   - name: print information
      ansible.builtin.debug:  
